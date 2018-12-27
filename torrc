@@ -1,0 +1,9 @@
+SocksPort 9050
+DataDirectory /var/lib/tor
+Log notice syslog
+VirtualAddrNetwork 10.192.0.0/10
+AutomapHostsSuffixes .onion,.exit
+AutomapHostsOnResolve 1
+TransPort 9040
+HardwareAccel 1
+ExitNodes {fr}

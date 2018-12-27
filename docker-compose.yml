@@ -1,0 +1,9 @@
+version: '0.3.4.9'
+services:
+  tor:
+    build: .
+    ports:
+      - 9050:9050
+      - 9040:9040
+    volumes:
+      - .:/var/lib/tor
