@@ -1,4 +1,4 @@
-# Minimal TOR client with and ExitNode in France
+# Minimal TOR client with an ExitNode in France
 
 
 ## License
